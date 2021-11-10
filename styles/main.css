@@ -1,0 +1,148 @@
+/* the styles for the elements */
+html{
+	background-color: white;
+	clear: none;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 800px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
+}
+
+/* the styles for the header */
+header {
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(30deg, #f6bb73, #f6bb73, white, #f6bb73, #f6bb73);
+}
+header img {
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+h1 {
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin: 0;
+}
+
+h2 {
+	font-size: 170%;
+	color: #800000;
+}
+h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+.shadow {
+	text-shadow: 1px 1px #800000;
+}
+/* the styles for the section */
+section {
+	width: 525px;
+	float: right;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+aside {
+	width: 215px;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+main {
+	clear: left;
+	height: 900px;
+}
+
+section h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+}
+aside h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+}
+h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+article {
+	padding-bottom: .5em;
+	padding-top: .5em;
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
+}
+article h2 {
+	padding-top: 0;
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+#dino {
+	float: right;
+	border: 1px solid black;
+	margin-top: 4px;
+	margin-bottom: 20px;
+	margin-left: 4px;
+}
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+aside a:hover {
+	font-style: italic;
+}
+
+aside img {
+	padding-bottom: 1em;
+}
+
+section p {
+	padding-bottom: .5em;
+}
+
+section blockquote {
+	padding-right: 2em;
+	padding-left: 2em;
+	font-style: italic;
+}
+section ul {
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+
+section li {
+	padding-bottom: .35em;
+}
+/* the styles for the footer */
+footer {
+	background-color: #931420;
+	height: 15%;
+}
+footer p {
+	float: none;
+	text-align: center;
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-bottom: 0;
+}
+
+
