@@ -28,7 +28,7 @@ header img {
 	padding-right: 30px;
 }
 
-.current {
+#nav_menu a.current {
 	color: yellow;
 }
 
@@ -55,19 +55,25 @@ li a {
 	font-weight: bold;
 }
 
+li a:hover {
+	font-style: italic;
+}
+
 #submenu {
 	display: none;
 	float: none;
 	position: absolute;
-}
 
-#nav_menu ul li a:hover > ul{
-	display: block;
 }
 
 .drop-content{
-	display: block;
 	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#drop-menu:hover .drop-content {
+	display: block;
 }
 
 h1 {
